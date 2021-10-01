@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+egg_dropping_recur(){
+	//	we have to find the minimum number of attempts that will be required to find  the critical floor(floor from where egg will drop and break)
+	//	u will think that number number of attepts will be different in different cases. for best case , the situation will be that we chose a floor x, and and egg didnt break, then we chose
+	//	x+1th floor and it broke, so we required only 2 attempts to find out the critical floor in best case.
+	//	what happens in worst case??
+	//	for every floor, we have 2 possibilites i.e the egg will break or it will not break;
+	//	we dont what would the most optiomal floor to make the first attempt from so we are making attempt from every floor, 
+	//	we also dont know if by dropping from a floor wheather the egg would break or not so we test for both the cases, 
+	//	we recursively call the function for the left over floor and eggs, since we assume the worst possible case here and we do not 
+	//	know if from dropping from a floor wheather the egg will break or not, we check for which situation it would take 
+	//	greater number of attempts to find the critical floor and take that one.
+	//	
+		
+}
+
+int main(){
+	
+	
+}
